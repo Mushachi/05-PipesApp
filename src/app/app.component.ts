@@ -10,7 +10,8 @@ export class AppComponent {
   nombre: string = 'juLio BarRiGa';
   valor: number = 1000;
   obj = {
-    nombre: 'Julio'
+    nombre: 'Julio',
+    edad: 42
   }
 
   mostrarNombre() {

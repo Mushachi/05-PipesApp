@@ -1,5 +1,9 @@
 
-<div class="text-layout">
+<shared-menu></shared-menu>
+
+<router-outlet></router-outlet>
+
+<!-- <div class="text-layout">
 
   <h1>{{ nombre | titlecase }}</h1>
   <h1>{{ valor | number }}</h1>
@@ -13,15 +17,16 @@
   label="Cambiar Nombre"
   icon="pi pi-bell"
   class="p-button-help"
-  iconPos="right"></button>
+  iconPos="right">
+</button>
 
-  <div class="row">
-    <div class="col-6">
+<div class="row">
+  <div class="col-6">
 
-      <p-card [header]="nombre | titlecase"
-        subheader="Esto es un subheader">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quia laudantium cum excepturi at, consequatur ab soluta nostrum quidem, id fugiat officia alias blanditiis minima modi animi rerum nobis rem.
-      </p-card>
+    <p-card [header]="nombre | titlecase"
+      subheader="Esto es un subheader">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quia laudantium cum excepturi at, consequatur ab soluta nostrum quidem, id fugiat officia alias blanditiis minima modi animi rerum nobis rem.
+    </p-card>
 
-    </div>
   </div>
+</div> -->
