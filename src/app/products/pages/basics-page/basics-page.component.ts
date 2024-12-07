@@ -12,4 +12,8 @@ export class BasicsPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  public nameLower: string = 'julio';
+  public nameUpper: string = 'JULIO';
+  public fullName: string = 'jUlIo bArRiGa';
+
 }

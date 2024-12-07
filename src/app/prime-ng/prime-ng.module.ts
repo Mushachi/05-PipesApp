@@ -4,17 +4,21 @@ import { NgModule } from '@angular/core';
 import { AvatarModule } from 'primeng/avatar';
 import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
-import { MenubarModule } from 'primeng/menubar'
-import { MenuModule } from 'primeng/menu';
+import { FieldsetModule } from 'primeng/fieldset';
+import { MenubarModule } from 'primeng/menubar';
+// import { MenuModule } from 'primeng/menu';
+import { PanelModule } from 'primeng/panel';
 
 
 @NgModule({
   exports: [
+    // MenuModule,
     AvatarModule,
     ButtonModule,
     CardModule,
+    FieldsetModule,
     MenubarModule,
-    MenuModule,
+    PanelModule,
   ]
 })
 export class PrimeNgModule { }
