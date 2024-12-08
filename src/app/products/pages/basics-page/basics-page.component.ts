@@ -16,4 +16,6 @@ export class BasicsPageComponent implements OnInit {
   public nameUpper: string = 'JULIO';
   public fullName: string = 'jUlIo bArRiGa';
 
+  public customDate: Date = new Date();
+
 }
