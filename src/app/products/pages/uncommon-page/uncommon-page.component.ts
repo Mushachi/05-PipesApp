@@ -7,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UncommonPageComponent implements OnInit {
 
+  // i18n Select
+  public name: string = 'Julio';
+  public genero: 'male'|'female' = 'male';
+  public invitacionMap = {
+    male:'invitarlo',
+    female:'invitarla'
+  }
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  changeClient():void {
+    this.name = 'Maria';
+    this.genero = 'female';
   }
 
 }
