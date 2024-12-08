@@ -37,4 +37,11 @@ export class UncommonPageComponent implements OnInit {
   deleteClient():void {
     this.clients.shift();
   }
+
+  // KeyValue Pipe
+  public person = {
+    name: 'Fernando',
+    age: 42,
+    address: 'Tonala, Jalisco'
+  }
 }
